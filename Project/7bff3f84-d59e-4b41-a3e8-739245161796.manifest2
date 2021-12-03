@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="Infinity" />
+  <Solution solutionName="HMI_lib_1" id="7bff3f84-d59e-4b41-a3e8-739245161796" trackingId="f55d179e-b57a-43e9-8d60-3eccd972739c" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="HMI-IAG" />
+      <ApplicationFeature name="IAG-Version:1.15" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>
