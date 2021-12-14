@@ -77,7 +77,7 @@
       <DataType Name="Ascending" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="0" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="7f93165f-67fa-4030-a73e-2934e8f06e88" />
       <DataType Name="Descending" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="63df2718-e71d-457f-8025-f0c3d341fa56" />
     </DataType>
-    <DataType Name="StationSTR" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="1" OffsetType="" Id="9cb84722-a139-4926-ba2c-fb827c99cb3a">
+    <DataType Name="StationSTR" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="2" OffsetType="" Id="9cb84722-a139-4926-ba2c-fb827c99cb3a">
       <DataType Name="Filled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="eb29d146-b0ee-4d5d-8b41-8ad98368a9e4" />
       <DataType Name="PartFilled" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="449a9926-bc45-447c-b042-c7abecef4086" />
       <DataType Name="PartChecked" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="751f5ebd-6da9-48e6-b393-3af9e5c8408f" />
@@ -111,7 +111,7 @@
       <DataType Name="InputVariable" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="1" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="7ed72bf0-6acc-4673-9694-e9e7cbebf3e0" />
       <DataType Name="OutputVariable" BaseType="Integer" ArrayType="" Length="" InitialValue="" EnumValue="2" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="true" Order="0" OffsetType="" Id="01aeae47-23ae-49de-84d1-d5df3c1e2d99" />
     </DataType>
-    <DataType Name="VacuumSensorParamSTR" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="80aca3a6-dae0-4e51-af3d-c53de3e3d3fd">
+    <DataType Name="VacuumSensorParamSTR" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="1" OffsetType="" Id="80aca3a6-dae0-4e51-af3d-c53de3e3d3fd">
       <DataType Name="P1_lo" BaseType="Single" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="ed64e45d-5e24-4b00-8825-a5e2bad4a7ea" />
       <DataType Name="P1_hi" BaseType="Single" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="eb38f079-52b3-4e04-91a0-1255c9a7b9a5" />
       <DataType Name="P1_hys" BaseType="Single" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="406f93b0-69f8-4d61-8b39-a42b2f320517" />
@@ -122,6 +122,13 @@
       <DataType Name="P2_hys" BaseType="Single" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="b8aed53a-e717-4382-8f22-f355f242bb52" />
       <DataType Name="P2_SwLogic" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="40b5791d-152b-4e0b-bbf2-5b539681d943" />
       <DataType Name="P2_SwMode" BaseType="Byte" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="ae3d308d-721c-4646-9853-b5d86917f361" />
+    </DataType>
+    <DataType Name="StationSTRTablazo" BaseType="STRUCT" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="e6551634-9c87-40a4-9c1b-effa66b14db3">
+      <DataType Name="Scrap" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="c977b9c3-2ba1-4d33-af5e-baf48a9aff05" />
+      <DataType Name="PartExist" BaseType="Boolean" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a504e4b0-e17f-475b-bf1b-baa2481fc573" />
+      <DataType Name="Ready" BaseType="Boolean(20)" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="4eb77fb4-dcbf-4847-b71b-9e371ccbb6e4" />
+      <DataType Name="EnyvTimeStamp" BaseType="Date" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="3e762746-641a-4362-a7c2-6c4af7bca1c0" />
+      <DataType Name="DiszperzioTimeStamp" BaseType="Date" ArrayType="" Length="" InitialValue="" EnumValue="" Comment="" OffsetChannel="" OffsetBit="" IsControllerDefinedType="false" Order="0" OffsetType="" Id="a5cc8f04-028f-42e2-b017-ba5e90074324" />
     </DataType>
   </DataType>
 </data>

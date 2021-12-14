@@ -27,7 +27,7 @@
         <AccessInfos />
         <ChildEntities />
       </Entity>
-      <Entity type="Device" subtype="IAGDeviceSubType" id="b878ed5c-bacc-4f1b-ac0f-0b579876ecfc" name="IAG_Device_0" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="11/10/2021 20:54:17" trackingId="df24f192-78bb-4d3b-b555-730af5f236fc" DN="IAG_Device_0" hash="b7d454970fcdec90ec57f6f4e43846ee" DHS="453273294d825aa9bfff4d0aa68c7d46" TH="bd6cd6a0b02329050663290e790d5904">
+      <Entity type="Device" subtype="IAGDeviceSubType" id="b878ed5c-bacc-4f1b-ac0f-0b579876ecfc" name="IAG_Device_0" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="11/10/2021 20:54:17" trackingId="df24f192-78bb-4d3b-b555-730af5f236fc" DN="IAG_Device_0" hash="b7d454970fcdec90ec57f6f4e43846ee" DHS="90c0c9e7dc417b248fe7f8bb300c0f26" TH="e495803cb5ea163df9fe280d748d5d82">
         <AccessInfos />
         <ChildEntities>
           <Entity type="Watch" subtype="" id="f0f89ad7-2f27-44f1-b08f-a3a7dca13e77" name="Watch" version="0" dateCreated="01/03/2020 10:08:08" trackingId="21f55211-6979-4a05-a038-f1e5f1f2fe69">
@@ -42,7 +42,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="IagCollectionPropertiesEntityType" subtype="IagCollectionPropertiesEntitySubType" id="e0acd266-44de-4476-92f6-1c9c5251d40e" name="IAG Collection Settings" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="12/03/2021 10:19:10" trackingId="0edb6606-8d58-42af-b1a8-dcef31ad5d68" DN="IAG Collection Settings" hash="9dd5945c098e3b052d8fbcb934f92f51">
+          <Entity type="IagCollectionPropertiesEntityType" subtype="IagCollectionPropertiesEntitySubType" id="e0acd266-44de-4476-92f6-1c9c5251d40e" name="IAG Collection Settings" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="12/14/2021 09:52:21" trackingId="0edb6606-8d58-42af-b1a8-dcef31ad5d68" DN="IAG Collection Settings" hash="839f944a5affc9b4aa377c634d259bb0">
             <AccessInfos />
             <ChildEntities />
           </Entity>
@@ -50,7 +50,7 @@
             <AccessInfos />
             <ChildEntities />
           </Entity>
-          <Entity type="IagGroup" subtype="" id="db652694-b379-4127-be31-8500c451aea3" name="IAGs" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="11/16/2021 14:28:46" trackingId="fe9740e5-b679-4d62-bf03-2654dcbdd1c5" DN="IAGs">
+          <Entity type="IagGroup" subtype="" id="db652694-b379-4127-be31-8500c451aea3" name="IAGs" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="12/14/2021 09:52:21" trackingId="fe9740e5-b679-4d62-bf03-2654dcbdd1c5" DN="IAGs">
             <AccessInfos />
             <ChildEntities>
               <Entity type="HmiIag" subtype="" id="bfed447e-0c86-4049-8586-49becf4135a3" name="PistonButton" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="01/03/2020 10:17:08" trackingId="c76bfe1c-5df6-4dca-8e6c-5f61046b684c" DN="PistonButton">
@@ -75,7 +75,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="HmiIag" subtype="" id="86be6175-489f-4160-9e72-874b0ba2ef27" name="StationInfo" version="0" dateCreated="04/03/2020 11:50:52" dateLastModified="04/03/2020 11:52:51" trackingId="115e105b-f701-4739-aeed-75e46321ced7" DN="StationInfo">
+              <Entity type="HmiIag" subtype="" id="86be6175-489f-4160-9e72-874b0ba2ef27" name="StationInfo" version="NaN" dateCreated="04/03/2020 11:50:52" dateLastModified="04/03/2020 11:52:51" trackingId="115e105b-f701-4739-aeed-75e46321ced7" DN="StationInfo">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="IagPage" subtype="GraphicalPage" id="3bf64186-33c6-4132-ae42-2a25cd97a0d6" name="StationInfo" version="0" dateCreated="04/03/2020 11:50:53" dateLastModified="11/10/2021 20:54:17" trackingId="42a1ae3d-25f1-427b-acdd-adba7c617b9f" hash="f07c1b8bf6dfacebbf45db7231c1f730">
@@ -97,7 +97,7 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
-              <Entity type="HmiIag" subtype="" id="edd4097d-a437-46a3-9cfd-76b1ce7b0caa" name="StationInfoMini" version="0" dateCreated="04/29/2020 11:14:20" dateLastModified="04/29/2020 11:20:23" trackingId="eb0d6289-db6f-4c73-8240-39d44db752f9" DN="StationInfoMini">
+              <Entity type="HmiIag" subtype="" id="edd4097d-a437-46a3-9cfd-76b1ce7b0caa" name="StationInfoMini" version="NaN" dateCreated="04/29/2020 11:14:20" dateLastModified="04/29/2020 11:20:23" trackingId="eb0d6289-db6f-4c73-8240-39d44db752f9" DN="StationInfoMini">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="IagPage" subtype="GraphicalPage" id="fb176875-2967-45a3-aed0-8db71e70526d" name="StationInfoMini" version="0" dateCreated="04/29/2020 11:14:20" dateLastModified="04/29/2020 11:24:54" trackingId="bd23bb0a-cb99-49ff-a742-f8d841362717" hash="d9d756f747053ae1cde68961e98f9a7d">
@@ -361,6 +361,28 @@
                   </Entity>
                 </ChildEntities>
               </Entity>
+              <Entity type="HmiIag" subtype="" id="22093f4d-b913-420f-ae25-d2ec31ff3a4a" name="StationInfoTablazo" version="NaN" dateCreated="04/03/2020 11:50:52" dateLastModified="12/14/2021 09:52:21" trackingId="10cba464-6561-49b7-a4d6-2ae55316b82a" DN="StationInfoTablazo">
+                <AccessInfos />
+                <ChildEntities>
+                  <Entity type="IagPage" subtype="GraphicalPage" id="a546a851-fce7-4609-b038-ec9a878a5286" name="StationInfoTablazo" version="0" dateCreated="04/03/2020 11:50:53" dateLastModified="12/14/2021 09:52:21" trackingId="83338b5a-3be0-4659-a7b3-2d3ef836d0bd" hash="58588432048f21c41a3afa0ed8235753">
+                    <AccessInfos />
+                    <ChildEntities>
+                      <Entity type="IagPage" subtype="VisualBasicPage" id="a6bbff02-4f46-43c4-835c-d6e3d7feecde" name="StationInfoTablazo.vb" version="0" dateCreated="04/03/2020 11:50:53" dateLastModified="12/14/2021 09:52:21" trackingId="32a6d47e-af5e-4291-b3a8-29229833cec2" hash="a12be28050105bed06c3d53cc6ebd8e5">
+                        <AccessInfos />
+                        <ChildEntities />
+                      </Entity>
+                    </ChildEntities>
+                  </Entity>
+                  <Entity type="IagPage" subtype="UserEventsEntitySubtype" id="0338df38-6870-4d4a-ac05-8ff05b85ed16" name="User Events" version="0" dateCreated="04/03/2020 11:50:53" dateLastModified="12/14/2021 09:52:21" trackingId="2520e54e-3584-4afa-b04e-5e814a1545dd" hash="fae20751cec5d325d2328af86a0b1c94">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                  <Entity type="Variables" subtype="IagVariables" id="0a61aea6-7826-40e1-954c-d5a1235b4ad1" name="IAG Variables" version="1" dateCreated="04/03/2020 11:50:53" dateLastModified="12/14/2021 09:52:21" trackingId="87d130b4-e494-417d-a6a3-c5d7f6c86dda" SDName="User Variables" hash="cb1e62bd2edb56df95b7f82554f50523">
+                    <AccessInfos />
+                    <ChildEntities />
+                  </Entity>
+                </ChildEntities>
+              </Entity>
             </ChildEntities>
           </Entity>
           <Entity type="CommonSubroutinesGroupEntity" subtype="CommonSubroutinesGroupEntitySubtype" id="34556c07-13d0-4ea3-bda7-cb8b1fdd4fc5" name="Common Subroutines" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="01/03/2020 10:08:08" trackingId="38d7f5e5-99fb-4423-b362-ac25e5f246c3">
@@ -370,7 +392,7 @@
           <Entity type="HmiDataGroup" subtype="HmiDataGroupSubType" id="65afedae-9383-4644-b188-92db28092410" name="Data" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="01/03/2020 10:08:08" trackingId="a8971645-5244-43fc-9c21-df174c9658ff" DN="Data">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="DataType" subtype="" id="ab28a81a-0630-4454-b37e-70b1b6e7d91f" name="Data Types" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="11/11/2021 12:30:03" trackingId="a625a266-4f02-4656-b292-feb68495e8fd" DN="Data Types" hash="b51ce3707c4b2bbfee074047d03b78a0">
+              <Entity type="DataType" subtype="" id="ab28a81a-0630-4454-b37e-70b1b6e7d91f" name="Data Types" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="12/14/2021 09:52:21" trackingId="a625a266-4f02-4656-b292-feb68495e8fd" DN="Data Types" hash="e07300c319b516cdb7b1d7ce2a9c4694">
                 <AccessInfos />
                 <ChildEntities>
                   <Entity type="SourceHolder" subtype="" id="28f54f4e-b933-466c-aaf4-cdf1fb07f670" name="Source" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="01/03/2020 10:08:08" trackingId="b9eaf0ce-21b9-4023-9399-512fd3f4c5d2">
@@ -392,7 +414,7 @@
           <Entity type="ResourceGroup" subtype="" id="92629094-fccc-4099-8b89-c0146e4014b8" name="Resources" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="01/03/2020 10:12:08" trackingId="2f439a6f-bc1f-4fe7-8eaf-f7521c03216b" DN="Resources">
             <AccessInfos />
             <ChildEntities>
-              <Entity type="LocalisationResources" subtype="" id="9de0bfd2-1aa6-4e1b-82f1-77fafdb80086" name="Root" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="11/16/2021 14:28:46" trackingId="56c2b2e1-6458-49ca-916d-c50062ab7993" DN="Root" hash="a7495de21e2b9e2f3b36263a80cbc784">
+              <Entity type="LocalisationResources" subtype="" id="9de0bfd2-1aa6-4e1b-82f1-77fafdb80086" name="Root" version="0" dateCreated="01/03/2020 10:08:08" dateLastModified="12/14/2021 09:52:21" trackingId="56c2b2e1-6458-49ca-916d-c50062ab7993" DN="Root" hash="f11107d70de68fb28e5c9937b506a930">
                 <AccessInfos />
                 <ChildEntities />
               </Entity>

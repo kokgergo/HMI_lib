@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Variables>
+  <VariableGroup Name="VAR" Attribute="" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="Date" Name="enyvido" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="cdaa26be-b5ca-4995-80e5-698d947d531c" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+  <VariableGroup Name="VAR_INPUT" Attribute="InputOutput" ViewType="DynamicVariablesGroup">
+    <Variable DataTypeName="StationSTRTablazo(20)" Name="StationInfoTablazo" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="00c58574-f8c9-464f-87f3-bb75bd92d21e" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="false" Group="VAR_IN_OUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="UShort" Name="NumberOfStation" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="b8a45e63-380d-4fd5-a8c5-6333edc5fbcc" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+    <Variable DataTypeName="Long" Name="CycleTime" Address="" Length="" Retained="false" InitialValue="" Comment="" NetworkPublication="NoPublication" IsReadOnlyNetwork="false" Edge="NoEdge" Id="76cc02f8-fc22-4cf6-a7a9-871a623ec36a" Order="" IsControllerVariable="false" IsReadOnly="false" IsConstant="true" Group="VAR_INPUT" InitialValueArrayLength="" UpdateRate="0" />
+  </VariableGroup>
+</Variables>
